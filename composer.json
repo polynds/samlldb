@@ -1,0 +1,22 @@
+{
+    "name": "polynds/smalldb",
+    "autoload": {
+        "psr-4": {
+            "Smalldb\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kuangjian",
+            "email": "2910508410@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "1.8.2",
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "phpunit/phpunit": "^9.5"
+    }
+}
